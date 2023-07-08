@@ -1,0 +1,80 @@
+/*IMAGEM PASSADANDO DA ESQUERDA PARA A DIREITA NO FUNDO DA PAG
+
+.background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: moveBackground 10s linear infinite;
+  background-image: url(ti-abre.jpg);
+}
+
+@keyframes moveBackground {
+  0% { background-position: 0 0; }
+  100% { background-position: 100% 100%; }
+}
+*/
+
+/*IMAGEM PASSADANDO DA ESQUERDA PARA A DIREITA NO FUNDO DA PAG
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: moveBackground 10s linear infinite;
+    background: linear-gradient(45deg, #ff00ff, #00ffff, #00ff00, #ffff00);
+    background-size: 800% 800%;
+  }
+  
+  @keyframes moveBackground {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 100%; }
+  }
+*/
+
+/* colocar uma imagem no centro
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+*/ 
+body{
+  text-align: center;
+  padding: 150px;
+}
+
+
+
+  .background {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    animation: moveBackground 20s linear infinite;
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #73f073, #001c3bb4,#002147b4,#002147e3,#002147de,#002147c0,#3effdfbe,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
+    background-size: 600% 200%;
+  }
+  
+  @keyframes moveBackground {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+  }
+  .formulario{
+    background-color: rgba(255, 255, 255, 0.514);
+    color: rgb(0, 0, 0);
+    width: 25%;   
+    padding: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border-radius:20px;
+    
+  }
+  
