@@ -4,6 +4,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-family: 'Ysabeau Office', sans-serif;
     background: rgb(0, 14, 34);
+    margin: 20px;
 }
 /* Background gradient passando uma fileira de cor da direita para a esquerda
 .background {
