@@ -3,8 +3,9 @@
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Ysabeau Office', sans-serif;
-   
+    background: rgb(0, 14, 34);
 }
+/* Background gradient passando uma fileira de cor da direita para a esquerda
 .background {
 position:fixed;
 top: 0;
@@ -12,10 +13,11 @@ left: 0;
  width: 100%;
  height: 100%;
  z-index: -1;
-animation: moveBackground 30s linear infinite;
-/*background: linear-gradient(to right, #01493dcc, #44b7f1b9, #002147bd,#44b7f1b4,#01493dbd, #002147b7, #44b7f1c0,#002147cb, #01493de3,#44b7f1cc);
-*/
-background: linear-gradient(to right, rgba(200, 200, 200, 0.514), rgb(150, 150, 150), rgb(100, 100, 100), rgb(50, 50, 50), rgb(0, 0, 255), rgb(50, 50, 50), rgb(100, 100, 100), rgb(150, 150, 150), rgb(150, 150, 150), rgba(200, 200, 200, 0.527));
+animation: moveBackground 20s linear infinite;
+
+background: linear-gradient(to right, #01493dcc, #44b7f1b9, #002147bd,#44b7f1b4,#01493dbd, #002147b7, #44b7f1c0,#002147cb, #01493de3,#44b7f1cc);
+
+background: linear-gradient(to right,white,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #73f073, #001c3bb4,#002147b4,#002147e3,#002147de,#002147c0,#3effdfbe,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
 background-size: 500% 100%;
 }
       
@@ -23,40 +25,40 @@ background-size: 500% 100%;
     0% { background-position: 0% 0%; }
     100% { background-position: 100% 0%; }
 }    
-
+*/
 .cabecalho{
 display:flex;
 flex-direction: row;
 align-items: center;
-gap: 47%;
+gap: 45%;
 font-size: 25px;
-background-image: url(ti-abre.jpg);
+background-image: url(Img/ti-abre.jpg);
 background-position: center;
 background-size: cover;
 background-color: rgba(8, 3, 3, 0.479);
 padding: 25px;
 border-radius: 20px;
-
+margin: 17px;
 }
 .cabecalho-imagem{ 
     border-radius: 50%;
-    width: 100px;
+    width:70px;
     background-position: center;
-    background-color: #0000000a;
-    
-
 }
-
 .cabecalho-menu-item{
     margin: 20px;
-    color: rgb(255,255,255);
-    
+    color: rgba(73, 146, 255, 0.486);
+    padding: 5px;
+    text-decoration: none;
+    border: 1px solid;
+    border-radius: 10px;
+    background: local;
 }
 :hover.cabecalho-menu-item{
-    color: rgba(0, 102, 255, 0.301);
+    color: #faf6f6;
 }
 .conteudo-main{
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(253, 253, 253, 0.274);
     padding: 50px;
     margin: 20px;
     border-radius: 20px;
@@ -65,27 +67,39 @@ border-radius: 20px;
     display:flex;
     justify-content: start;
     padding: 60px;
-    
+    margin: 10px;
     text-align: center;
-
+    color:rgba(248, 248, 248, 0.829);
+}
+h1{
+    font-size: 30px;
+    padding: 10px;
 }
 .botao-contato{
-    width: 50%;
+    width: 100%;
+    padding: 20px;
+    font-size:x-large;
+    background: local;
+    border-radius: 40px;
+    color:rgba(248, 248, 248, 0.829);
+
+}
+:hover.botao-contato{
+    color: rgb(87, 210, 247);
+    border-radius: 40PX;
+    background-image: url(Img/ti-abre.jpg);
 }
 .imagem-conteudo{
-    width: 30%;
-    padding-top: -40px;
-    padding-left: 200px;
+    width: 50%; 
+    padding-left:100px;
     display: flex;
-    justify-content: end;
-   
-
+    justify-content: center;
+    text-align: end;
 }
 .conteudo2{
     text-align: center;
     font-size: 18px;
     padding: 100px;
-
 }
 .rodape{
     display: flex;
