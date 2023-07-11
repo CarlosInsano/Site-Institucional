@@ -1,22 +1,31 @@
-/*Responsividade*/
 
-/* Estilos para telas menores*/
+@media (max-width: 1024px){
+.imagem-conteudo{
+    display: none;
+}
+}
 @media (max-width: 768px){
     .cabecalho{
-        flex-direction: column;
-        padding: 5px;
+        flex-direction: row;
+        padding: 0px;
         margin: 0px;
     }
     .cabecalho-imagem{
         margin: 10px;
     }
     .cabecalho-menu {
-        margin: 10px;
+        margin: auto;
+        justify-content: end;
+    }
+    .cabecalho-menu-item{
+        margin: 20px;
     }
     .conteudo-main{
-        margin: 1px;
+        margin: 10px;
+        margin-top: 120px;
     }
     .conteudo1 {
+      padding: 0;
       flex-direction: column; /* Alterar a direção do conteúdo para coluna */
     }
     
@@ -25,26 +34,113 @@
     }
     
     .conteudo2 {
+      padding: 0;
+      padding-top: 100px;    
       font-size: 14px; /* Reduzir o tamanho da fonte no conteúdo 2 */
     }
 }
-/* Estilos para celulares menores */
 @media (max-width: 425px){
-    /* Aqui você pode adicionar estilos específicos para telas menores */
-    body {
-      font-size: 14px; /* Exemplo: reduzir o tamanho da fonte */
+    .cabecalho{   
+        padding: 1px;
+        margin: 1px;
     }
-
-    .conteudo1 {
-      flex-direction: column; /* Exemplo: alterar a direção do conteúdo para coluna */
+    .cabecalho-imagem{
+        display: none;
     }
-    
-    .imagem-conteudo {
-      display: none; /* Exemplo: esconder a imagem no conteúdo 1 */
+    .cabecalho-menu{
+        margin: 0;
     }
-    
-    .conteudo2 {
-      font-size: 12px; /* Exemplo: ajustar o tamanho da fonte no conteúdo 2 */
+    .cabecalho-menu-item{
+        margin: 10px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .conteudo-main{
+        flex-direction: column;
+        font-size: 8px;
+        padding: 0px;
+        margin-top: 55px;
+    }
+    h1{
+        font-size: 31px;
+        margin: 1px;
+        padding-top: 90px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 0;
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .botao-contato{
+        padding: 30px;
+        font-size: 15px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .conteudo1{
+        padding:0px;
+    }
+    .conteudo2{
+        margin-top: 120px;
+        padding: 10px;
+    }
+    .rodape-imagem{
+        margin: 5px;
+        width: 50px; 
+    }
+}
+@media (max-width: 375px){
+    .cabecalho{   
+        padding: 1px;
+        margin: 1px;
+    }
+    .cabecalho-imagem{
+        display: none;
+    }
+    .cabecalho-menu{
+        margin: 0;
+    }
+    .cabecalho-menu-item{
+        margin: 10px;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .conteudo-main{
+        flex-direction: column;
+        font-size: 8px;
+        padding: 0px;
+        margin-top: 55px;
+    }
+    h1{
+        font-size: 27px;
+        margin: 1px;
+        padding-top: 90px;
+    }
+    h2{
+        font-size: 18px;
+        margin: 0;
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .botao-contato{
+        padding: 30px;
+        font-size: 15px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .conteudo1{
+        padding:0px;
+    }
+    .conteudo2{
+        margin-top: 80px;
+        padding: 20px;
+    }
+    .rodape-imagem{
+        margin: 5px;
+        width: 50px; 
     }
 }
 @media (max-width: 320px){
@@ -55,26 +151,30 @@
     .cabecalho-imagem{
         display: none;
     }
+    .cabecalho-menu{
+        margin: 0;
+    }
     .cabecalho-menu-item{
-        margin: 0px;
-        padding: 0px;
+        margin: 10px;
+        padding: 5px;
         font-size: 15px;
     }
     .conteudo-main{
         flex-direction: column;
         font-size: 8px;
-        margin: 0px;
         padding: 0px;
+        margin-top: 55px;
     }
     h1{
-        font-size: 19px;
+        font-size: 22px;
         margin: 1px;
-        padding-top: 100px;
+        padding-top: 90px;
     }
     h2{
+        font-size: 18px;
         margin: 0;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 70px;
+        padding-bottom: 70px;
     }
     .botao-contato{
         padding: 30px;
