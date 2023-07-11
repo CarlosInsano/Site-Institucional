@@ -44,7 +44,7 @@ margin: 17px;
 */
 position: fixed;
 top: 0;
-width: 100%;
+width: 99.4%;
 background-color: #f0f0f0;
 align-items: center;
 /*
@@ -56,7 +56,7 @@ border-radius: 10px;
 border: solid;
 display: flex;
 flex-direction: row;
-margin: auto;
+
 }
 .cabecalho-imagem{ 
     border-radius: 20%;
@@ -87,9 +87,11 @@ margin: auto;
 }
 :hover.cabecalho-menu-item{
     color: #faf6f6;
+    padding: 10PX;
+    
 }
 .conteudo-main{
-    background-color: rgba(253, 253, 253, 0.486);
+    background-color: rgb(253, 253, 253);
     padding: 50px;
     margin: 35px;
     border-radius: 20px;
@@ -101,7 +103,7 @@ margin: auto;
     padding: 60px;
     margin: 10px;
     text-align: center;
-    color:rgba(248, 248, 248, 0.829);
+    color:rgba(0, 0, 0, 0.829);
 }
 h1{
     font-size: 30px;
@@ -113,7 +115,7 @@ h1{
     font-size:x-large;
     background: local;
     border-radius: 40px;
-    color:rgba(248, 248, 248, 0.829);
+    color:rgba(0, 0, 0, 0.829);
 
 }
 :hover.botao-contato{
