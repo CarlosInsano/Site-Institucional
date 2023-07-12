@@ -3,7 +3,7 @@
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Ysabeau Office', sans-serif;
-    background: rgb(0, 14, 34);
+    background: rgb(0, 0, 0);
     margin: 0;
 }
 /* Background gradient passando uma fileira de cor da direita para a esquerda
@@ -72,7 +72,7 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgba(73, 146, 255, 0.486);
+    color: rgba(73, 146, 255, 0.596);
     padding: 5px;
     text-decoration: none;
     border: 1px solid;
@@ -88,6 +88,7 @@ flex-direction: row;
 :hover.cabecalho-menu-item{
     color: #faf6f6;
     padding: 10PX;
+    display: block;
     
 }
 .conteudo-main{
