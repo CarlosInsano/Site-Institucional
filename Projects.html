@@ -5,10 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/Projects.css">
     <title>Projetos C.A.R.C.F.</title>
+    <script>
+        function pesquisar() {
+            var input = document.getElementById("termo");
+            var filter = input.value.toUpperCase();
+            var itens = document.getElementsByClassName("Card");
+
+            for (var i = 0; i < itens.length; i++) {
+                var item = itens[i];
+                var textoItem = item.textContent || item.innerText;
+
+                if (textoItem.toUpperCase().indexOf(filter) > -1) {
+                    item.style.display = "";
+                } else {
+                    item.style.display = "none";
+                }
+            }
+        }
+    </script>
 </head>
 <body>
     <main>
         <h1>Projetos</h1>
+        <input type="text" id="termo" placeholder="Digite o que você quer ver" onkeyup="pesquisar()">
         <table class="tabela">
             <tr>
                 <td>
