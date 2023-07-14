@@ -87,7 +87,8 @@ flex-direction: row;
 }
 :hover.cabecalho-menu-item{
     color: #faf6f6;
-    padding: 10PX;
+    padding: 10;
+    transform: scale(1.2);
     
 }
 .conteudo-main{
