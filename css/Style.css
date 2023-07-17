@@ -87,9 +87,8 @@ flex-direction: row;
 }
 :hover.cabecalho-menu-item{
     color: #faf6f6;
-    padding: 10px;
-    display: block;
-    
+    padding: 10;
+    transform: scale(1.2);
 }
 .conteudo-main{
     background-color: rgb(253, 253, 253);
