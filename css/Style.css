@@ -122,8 +122,9 @@ h1{
     color: rgba(32, 32, 32, 0.377);
 }
 :hover.texto2{
-    font: normal 26pt arial;
+    font: normal 30pt arial;
     color: black;
+    transform: scale(1.2);
 }
 .botao-contato{
     width: 100%;
@@ -137,7 +138,6 @@ h1{
     color: rgb(87, 210, 247);
     border-radius: 40PX;
     background-image: url(/Img/ti-abre.jpg);
-    
 }
 .imagem-conteudo{
     width: 50%; 

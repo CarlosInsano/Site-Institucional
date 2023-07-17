@@ -22,7 +22,7 @@ h1{
 }
 .Card{
     background-color: rgba(240, 248, 255, 0.171);
-    margin: 10px;
+    margin: 20px;
     border-radius: 10px;
     flex-direction: column;
     overflow: hidden;
@@ -31,8 +31,7 @@ h1{
 }
 :hover.Card{
     background-color: rgba(44, 188, 255, 0.397);
-    width: 450px;
-    height: 400px;
+    transform: scale(1.2);
 }
 h3{
     text-align: start;
