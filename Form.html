@@ -6,6 +6,24 @@
   <link rel="stylesheet" type="text/css" href="/css/Form.css">
   <meta name="description" content="Desenvolvedor Web Carlos Auguto Ribeiro Chagas Filho">
   <title>Carlos Augusto R C Filho</title>
+  <script>
+    function pesquisar() {
+        var input = document.getElementById("termo");
+        var filter = input.value.toUpperCase();
+        var itens = document.getElementsByClassName("item");
+
+        for (var i = 0; i < itens.length; i++) {
+            var item = itens[i];
+            var textoItem = item.textContent || item.innerText;
+
+            if (textoItem.toUpperCase().indexOf(filter) > -1) {
+                item.style.display = "";
+            } else {
+                item.style.display = "none";
+            }
+        }
+    }
+</script>
 </head>
 <body>
   <div class="background"></div>
@@ -25,5 +43,15 @@
   </form>
   </div>
   <p>CARCF®</p>
+  <h1>Barra de Pesquisa com Filtro</h1>
+    <input type="text" id="termo" placeholder="Digite o que você quer ver" onkeyup="pesquisar()">
+    
+    <h2>Itens</h2>
+    <ul>
+        <li class="item">Carro</li>
+        <li class="item">Casa</li>
+        <li class="item">Livro</li>
+        <li class="item">Bicicleta</li>
+    </ul>
 </body>
 </html> 

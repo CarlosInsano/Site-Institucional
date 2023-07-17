@@ -3,8 +3,9 @@
 body {
     font-family: 'Playfair Display', serif;
     font-family: 'Ysabeau Office', sans-serif;
-    background: rgb(0, 14, 34);
+    background: rgb(0, 0, 0);
     margin: 0;
+    font: normal arial;
 }
 /* Background gradient passando uma fileira de cor da direita para a esquerda
 .background {
@@ -56,7 +57,6 @@ border-radius: 10px;
 border: solid;
 display: flex;
 flex-direction: row;
-
 }
 .cabecalho-imagem{ 
     border-radius: 20%;
@@ -72,7 +72,7 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgba(73, 146, 255, 0.486);
+    color: rgba(73, 146, 255, 0.596);
     padding: 5px;
     text-decoration: none;
     border: 1px solid;
@@ -89,7 +89,6 @@ flex-direction: row;
     color: #faf6f6;
     padding: 10;
     transform: scale(1.2);
-    
 }
 .conteudo-main{
     background-color: rgb(253, 253, 253);
@@ -101,14 +100,30 @@ flex-direction: row;
 .conteudo1{
     display:flex;
     justify-content: start;
-    padding: 60px;
-    margin: 10px;
+    padding: 100px;
+    margin: 40px;
     text-align: center;
     color:rgba(0, 0, 0, 0.829);
 }
 h1{
     font-size: 30px;
     padding: 10px;
+}
+.texto2{
+    background-color: rgba(0, 0, 0, 0.13);
+    padding-top: 200px;
+    padding-bottom: 10px;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font: normal 25pt arial;
+    margin: auto;
+    border-radius: 25px;
+    color: rgba(32, 32, 32, 0.377);
+}
+:hover.texto2{
+    font: normal 26pt arial;
+    color: black;
 }
 .botao-contato{
     width: 100%;
@@ -117,7 +132,6 @@ h1{
     background: local;
     border-radius: 40px;
     color:rgba(0, 0, 0, 0.829);
-
 }
 :hover.botao-contato{
     color: rgb(87, 210, 247);
@@ -135,7 +149,9 @@ h1{
 .conteudo2{
     text-align: center;
     font-size: 18px;
-    padding: 100px;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
 }
 .rodape{
     display: flex;
@@ -145,4 +161,39 @@ h1{
     width: 70px; 
     border-radius: 20%;
     margin-bottom: 20px;
+}
+.tabela{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    flex-direction: column;
+}
+.Card{
+    background-color: rgba(0, 0, 0, 0.322);
+    margin: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    width: 350px;
+    height: 500px;
+}
+:hover.Card{
+    background-color: rgba(44, 188, 255, 0.185);
+
+}
+p{
+    text-align: start;
+    margin: 13px;
+}
+a{
+    text-align:end;
+    margin: auto;
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: 60%;
 }
