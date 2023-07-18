@@ -40,9 +40,27 @@
     }
 }
 @media (max-width: 425px){
+    .background {
+        position:fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        animation: moveBackground 5s linear infinite;
+        background: linear-gradient(to right,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #73f073, #001c3bb4,#002147b4,#002147e3,#002147de,#002147c0,#3effdfbe,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
+        background-size: 600% 200%;
+    }
+      
+      @keyframes moveBackground {
+        0% { background-position: 0% 0%; }
+        100% { background-position: 100% 0%; }
+    }
     .cabecalho{   
-        padding: 1px;
-        margin: 1px;
+        text-align: center;
+        justify-content: center;
+        margin:auto;
+        padding: 10px;
     }
     .cabecalho-imagem{
         display: none;
@@ -51,15 +69,80 @@
         margin: 0;
     }
     .cabecalho-menu-item{
-        margin: 10px;
-        padding: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: auto;
+        font-size: 15px;
+    }
+    .conteudo-main{
+        background-color: rgba(253, 253, 253, 0);
+        flex-direction: column;
+        font-size: 8px;
+        padding: 0px;
+        margin-top:55px;
+        overflow: hidden;
+    }
+    h1{
+        font-size: 25px;
+        margin: 1px;
+        padding-top: 120px;
+    }
+    h2{
+        font-size: 20px;
+        margin: 0;
+        padding-top: 70px;
+        padding-bottom: 130px;
+    }
+    .botao-contato{
+        padding: 30px;
+        font-size: 15px;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .conteudo1{
+        padding:0px;
+    }
+    .conteudo2{
+        margin-top: 120px;
+        padding: 10px;
+    }
+    .rodape-imagem{
+        margin: 5px;
+        width: 50px; 
+    }
+    .texto2{
+        display: none;
+    }
+    .tabela{
+        display: none;
+    }
+}
+@media (max-width: 375px){
+    .cabecalho{   
+        text-align: center;
+        justify-content: center;
+        margin:auto;
+        padding: 10px;
+    }
+    .cabecalho-imagem{
+        display: none;
+    }
+    .cabecalho-menu{
+        margin: 0;
+    }
+    .cabecalho-menu-item{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: auto;
         font-size: 15px;
     }
     .conteudo-main{
         flex-direction: column;
         font-size: 8px;
         padding: 0px;
-        margin-top: 55px;
+        margin-top:55px;
+        overflow: hidden;
     }
     h1{
         font-size: 31px;
@@ -90,11 +173,17 @@
         margin: 5px;
         width: 50px; 
     }
+    .texto2{
+        display: none;
+    }
+    .tabela{
+        display: none;
+    }
 }
-@media (max-width: 375px){
+@media (max-width: 320px){
     .cabecalho{   
-        padding: 1px;
-        margin: 1px;
+        justify-content: center;
+        margin:auto;
     }
     .cabecalho-imagem{
         display: none;
@@ -103,23 +192,25 @@
         margin: 0;
     }
     .cabecalho-menu-item{
-        margin: 10px;
-        padding: 5px;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: auto;
         font-size: 15px;
     }
     .conteudo-main{
         flex-direction: column;
         font-size: 8px;
         padding: 0px;
-        margin-top: 55px;
+        margin-top:55px;
+        overflow: hidden;
     }
     h1{
-        font-size: 27px;
+        font-size: 31px;
         margin: 1px;
         padding-top: 90px;
     }
     h2{
-        font-size: 18px;
+        font-size: 20px;
         margin: 0;
         padding-top: 70px;
         padding-bottom: 130px;
@@ -135,63 +226,17 @@
         padding:0px;
     }
     .conteudo2{
-        margin-top: 80px;
-        padding: 20px;
+        margin-top: 120px;
+        padding: 10px;
     }
     .rodape-imagem{
         margin: 5px;
         width: 50px; 
     }
-}
-@media (max-width: 320px){
-    .cabecalho{   
-        padding: 1px;
-        margin: 1px;
-    }
-    .cabecalho-imagem{
+    .texto2{
         display: none;
     }
-    .cabecalho-menu{
-        margin: 0;
-    }
-    .cabecalho-menu-item{
-        margin: 10px;
-        padding: 5px;
-        font-size: 15px;
-    }
-    .conteudo-main{
-        flex-direction: column;
-        font-size: 8px;
-        padding: 0px;
-        margin-top: 55px;
-    }
-    h1{
-        font-size: 22px;
-        margin: 1px;
-        padding-top: 90px;
-    }
-    h2{
-        font-size: 18px;
-        margin: 0;
-        padding-top: 70px;
-        padding-bottom: 70px;
-    }
-    .botao-contato{
-        padding: 30px;
-        font-size: 15px;
-        margin: 0px;
-        display: flex;
-        justify-content: center;
-    }
-    .conteudo1{
-        padding:0px;
-    }
-    .conteudo2{
-        margin-top: 80px;
-        padding: 5px;
-    }
-    .rodape-imagem{
-        margin: 5px;
-        width: 50px; 
+    .tabela{
+        display: none;
     }
 }
