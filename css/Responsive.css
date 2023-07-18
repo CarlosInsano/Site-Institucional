@@ -40,7 +40,7 @@
     }
 }
 @media (max-width: 425px){
-    .background {
+    /*.background {
         position:fixed;
         top: 0;
         left: 0;
@@ -48,7 +48,7 @@
         height: 100%;
         z-index: -1;
         animation: moveBackground 1s linear infinite;
-        background: linear-gradient(to right,white,rgb(255, 255, 255),rgba(128, 128, 128, 0.74),rgba(163, 162, 162, 0.466),rgba(128, 128, 128, 0.836),rgb(255, 255, 255),white);
+        background: linear-gradient(to right,white,white,black,white,,black,white,black,white,white);
         background-size: 600% 200%;
     }
       
@@ -56,6 +56,7 @@
         0% { background-position: 0% 0%; }
         100% { background-position: 100% 0%; }
     }
+    */
     .cabecalho{   
         text-align: center;
         justify-content: center;
@@ -76,11 +77,11 @@
         font-size: 15pt;
     }
     .conteudo-main{
-        background-color: rgba(253, 253, 253, 0);
+        background-color: rgb(255, 255, 255);
         flex-direction: column;
         font-size: 8px;
         padding: 0px;
-        margin-top:55px;
+        margin-top:85px;
         overflow: hidden;
     }
     h1{
@@ -109,7 +110,7 @@
         padding:0px;
     }
     .conteudo2{
-        margin-top: 120px;
+        margin-top: 90px;
         padding: 10px;
     }
     .rodape-imagem{
