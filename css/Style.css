@@ -72,10 +72,10 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgba(73, 146, 255, 0.596);
+    color: rgb(95, 105, 248);
     padding: 5px;
     text-decoration: none;
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 10px;
     background: local;
     margin-left: 30px;
@@ -84,6 +84,7 @@ flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
+    font: normal 20pt arial;
 }
 :hover.cabecalho-menu-item{
     color: #faf6f6;
@@ -100,16 +101,19 @@ flex-direction: row;
 .conteudo1{
     display:flex;
     justify-content: start;
-    padding: 100px;
+    font: normal 15pt arial;
+    padding: 40px;
     margin: 40px;
+    margin-bottom: 50px;
     text-align: center;
     color:rgba(0, 0, 0, 0.829);
 }
 h1{
-    font-size: 30px;
+    font: normal 40pt arial;
     padding: 10px;
 }
 .texto2{
+    display: none;
     background-color: rgba(0, 0, 0, 0.13);
     padding-top: 200px;
     padding-bottom: 10px;
@@ -128,14 +132,15 @@ h1{
 }
 .botao-contato{
     width: 100%;
+    margin-top: 70px;
     padding: 20px;
-    font-size:x-large;
+    font: normal 30pt arial;
     background: local;
     border-radius: 40px;
     color:rgba(0, 0, 0, 0.829);
 }
 :hover.botao-contato{
-    color: rgb(87, 210, 247);
+    color: rgb(157, 224, 245);
     border-radius: 40PX;
     background-image: url(/Img/ti-abre.jpg);
 }
@@ -171,19 +176,27 @@ h1{
     flex-direction: column;
 }
 .Card{
-    background-color: rgba(0, 0, 0, 0.322);
+    background-color: rgba(255, 255, 255, 0.322);
     margin: 50px;
     border-radius: 10px;
     flex-direction: column;
     overflow: hidden;
     width: 350px;
-    height: 500px;
+    height: 700px;
 }
 :hover.Card{
     background-color: rgba(44, 188, 255, 0.185);
 
 }
+.Card h3{
+    padding-left: 10px;
+    text-align: start;
+    font: normal 16pt arial;
+    color: rgba(0, 110, 255, 0.89);
+}
+
 p{
+    font: normal 13pt arial;
     text-align: start;
     margin: 13px;
 }
@@ -192,8 +205,9 @@ a{
     margin: auto;
     color:rgb(253, 253, 253);
     text-decoration: none;
+    font: normal 12pt arial;
 }
 img{
     width: 100%;
-    height: 60%;
+    height: 45%;
 }
