@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=NomeDaFonte');
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-family: 'Ysabeau Office', sans-serif;
+    background: rgb(0, 0, 0);
+    margin: 0;
+    font: normal arial;
+}
+/* Background gradient passando uma fileira de cor da direita para a esquerda
+.background {
+position:fixed;
+top: 0;
+left: 0;
+ width: 100%;
+ height: 100%;
+ z-index: -1;
+animation: moveBackground 20s linear infinite;
+
+background: linear-gradient(to right, #01493dcc, #44b7f1b9, #002147bd,#44b7f1b4,#01493dbd, #002147b7, #44b7f1c0,#002147cb, #01493de3,#44b7f1cc);
+
+background: linear-gradient(to right,white,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #73f073, #001c3bb4,#002147b4,#002147e3,#002147de,#002147c0,#3effdfbe,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
+background-size: 500% 100%;
+}
+      
+@keyframes moveBackground {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 100% 0%; }
+}    
+*/
+.cabecalho{
+/*
+    display:flex;
+flex-direction: row;
+align-items: center;
+gap: 45%;
+font-size: 25px;
+background-image: url(/Img/ti-abre.jpg);
+background-position: center;
+background-size: cover;
+background-color: rgba(8, 3, 3, 0.479);
+padding: 25px;
+border-radius: 20px;
+margin: 17px;
+*/
+position: fixed;
+top: 0;
+width: 99.4%;
+background-color: #f0f0f0;
+align-items: center;
+/*
+gap: 45%;
+*/
+font-size: 25px;
+background-color: rgba(8, 3, 3, 0.479);
+border-radius: 10px;
+border: solid;
+display: flex;
+flex-direction: row;
+}
+.cabecalho-imagem{ 
+    border-radius: 20%;
+    width:70px;
+    padding: 10px;
+    margin-left:30px;
+    display: flex;
+}
+.cabecalho-menu{
+   display: flex;
+   justify-content: end;
+   margin-left: auto;
+}
+.cabecalho-menu-item{
+    margin-top: 10px;
+    color: rgb(95, 105, 248);
+    padding: 5px;
+    text-decoration: none;
+    border: 2px solid;
+    border-radius: 10px;
+    background: local;
+    margin-left: 30px;
+    margin-right: 50px;
+    margin-bottom: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font: normal 20pt arial;
+}
+:hover.cabecalho-menu-item{
+    color: #faf6f6;
+    padding: 10;
+    transform: scale(1.2);
+}
+.conteudo-main{
+    background-color: rgb(253, 253, 253);
+    padding: 50px;
+    margin: 35px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.conteudo1{
+    display:flex;
+    justify-content: start;
+    font: normal 15pt arial;
+    padding: 40px;
+    margin: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+    color:rgba(0, 0, 0, 0.829);
+}
+h1{
+    font: normal 40pt arial;
+    padding: 10px;
+}
+.texto2{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.13);
+    padding-top: 200px;
+    padding-bottom: 10px;
+    width: auto;
+    height: 300px;
+    text-align: center;
+    font: normal 25pt arial;
+    margin: auto;
+    border-radius: 25px;
+    color: rgba(32, 32, 32, 0.377);
+}
+:hover.texto2{
+    font: normal 30pt arial;
+    color: black;
+    transform: scale(1.2);
+}
+.botao-contato{
+    width: 100%;
+    margin-top: 70px;
+    padding: 20px;
+    font: normal 30pt arial;
+    background: local;
+    border-radius: 40px;
+    color:rgba(0, 0, 0, 0.829);
+}
+:hover.botao-contato{
+    color: rgb(157, 224, 245);
+    border-radius: 40PX;
+    background-image: url(/Img/ti-abre.jpg);
+}
+.imagem-conteudo{
+    width: 50%; 
+    padding-left:100px;
+    display: flex;
+    justify-content: center;
+    text-align: end;
+}
+.conteudo2{
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    align-items: center;
+    margin: 0;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+}
+.rodape-imagem{
+    width: 70px; 
+    border-radius: 20%;
+    margin-bottom: 20px;
+}
+.tabela{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    flex-direction: column;
+}
+.Card{
+    background-color: rgba(255, 255, 255, 0.322);
+    margin: 50px;
+    border-radius: 10px;
+    flex-direction: column;
+    overflow: hidden;
+    width: 350px;
+    height: 700px;
+}
+:hover.Card{
+    background-color: rgba(44, 188, 255, 0.185);
+
+}
+.Card h3{
+    padding-left: 10px;
+    text-align: start;
+    font: normal 16pt arial;
+    color: rgba(0, 110, 255, 0.89);
+}
+
+p{
+    font: normal 13pt arial;
+    text-align: start;
+    margin: 13px;
+}
+a{
+    text-align:end;
+    margin: auto;
+    color:rgb(253, 253, 253);
+    text-decoration: none;
+    font: normal 12pt arial;
+}
+img{
+    width: 100%;
+    height: 45%;
+}
