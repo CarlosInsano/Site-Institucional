@@ -4,6 +4,28 @@
         padding: 0;
         margin: auto;
     }
+    .conteudo2{
+        display: flex;
+        flex-direction: row;
+    }
+    .Card{
+        background-color: rgba(255, 255, 255, 0.322);
+        padding-top: 100px;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: auto;
+        border-radius: 10px;
+        flex-direction: column;
+        text-align: center;
+        overflow: hidden;
+        width: auto;
+        height: auto;
+    }
+    .Card img{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+    }
 }
 @media (max-width: 1024px){
     .body{
@@ -11,6 +33,10 @@
     }
     .conteudo1{
         flex-direction: column;
+    }
+    .conteudo2{
+        display: flex;
+        flex-direction: row;
     }
     .imagem-conteudo {
         width: auto;
@@ -32,7 +58,10 @@
       padding: 0;
       flex-direction: column; /* Alterar a direção do conteúdo para coluna */
     }
-    
+    .conteudo2{
+        display: flex;
+        flex-direction: column;
+    }
     .imagem-conteudo {
       display: none; /* Esconder a imagem no conteúdo 1 */
     }
@@ -106,16 +135,18 @@
     .botao-contato{
         padding: 30px;
         font: normal 15pt arial;
-        margin: 0;
+        margin: 80px 0;
         display: flex;
         justify-content: center;
     }
     .conteudo1{
         padding:0px;
+        height: 100%;
     }
-    .conteudo2{
-        margin-top: 130px;
-        padding: 5px;
+    .Card{
+        padding: 50px 0;
+        height: auto;
+        height: 200%;
     }
     .rodape-imagem{
         margin: 5px;
@@ -179,7 +210,7 @@
         padding:0px;
     }
     .conteudo2{
-        margin-top: 120px;
+        margin-top: 100px;
         padding: 10px;
     }
     .rodape-imagem{
@@ -239,11 +270,20 @@
         padding:0px;
     }
     .conteudo2{
-        margin-top: 150px;
+        margin-top: 130px;
         padding: 10px;
     }
+    .rodape{
+        margin: auto;
+        display: flex;
+        text-align: center;
+        padding: 7px;
+    }
+    .rodape a{
+        text-align: center;
+    }
     .rodape-imagem{
-        margin: 5px;
+        margin: 0px;
         width: 50px; 
     }
     .texto2{
