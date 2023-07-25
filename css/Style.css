@@ -72,7 +72,7 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgb(95, 105, 248);
+    color: rgba(0, 212, 240, 0.76);
     padding: 5px;
     text-decoration: none;
     border: 2px solid;
@@ -89,7 +89,7 @@ flex-direction: row;
 :hover.cabecalho-menu-item{
     color: #faf6f6;
     padding: 10;
-    transform: scale(1.2);
+    transform: scale(1.4);
 }
 .conteudo-main{
     background-color: rgb(253, 253, 253);
@@ -134,7 +134,7 @@ h1{
 .botao-contato{
     width: 100%;
     margin-top: 70px;
-    padding: 20px;
+    padding: 10px;
     font: normal 30pt arial;
     background: local;
     border-radius: 40px;
@@ -197,8 +197,7 @@ h1{
     height: 700px;
 }
 :hover.Card{
-    background-color: rgba(44, 188, 255, 0.185);
-
+    transform: scale(1.1);
 }
 .Card h3{
     padding-left: 10px;
