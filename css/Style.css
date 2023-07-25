@@ -72,7 +72,7 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgba(0, 212, 240, 0.76);
+    color: rgb(0, 212, 240);
     padding: 5px;
     text-decoration: none;
     border: 2px solid;

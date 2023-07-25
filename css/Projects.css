@@ -36,7 +36,6 @@ main{
     margin-top: 50px;
     border-radius: 10px;
     border: solid gray;
-    flex-direction: column;
     overflow: hidden;
     width: 250px;
     height: 300px;
@@ -55,7 +54,7 @@ h3{
 p{
     font: normal 10pt arial;
     text-align: start;
-    margin: 13px;
+    margin: 0px;
 }
 a{
     margin-top:0;
