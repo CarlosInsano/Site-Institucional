@@ -1,8 +1,12 @@
 
 @media (max-width: 1440px){
+    body{
+        font: arial normal;
+    }
     .conteudo1{
         padding: 0;
         margin: auto;
+        
     }
     .conteudo2{
         display: flex;
