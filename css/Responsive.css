@@ -99,6 +99,8 @@
     .cabecalho-menu{
         margin: 0;
         padding: 20px;
+        background-image: url(/Img/06.png);
+        
     }
     .cabecalho-menu-item{
         margin: 15px;
@@ -116,6 +118,7 @@
         margin-right: 10px;
         margin-bottom: 20px;
         overflow: hidden;
+        border: 8px solid rgb(43, 255, 0);
     }
     h1{
         font: normal 25pt arial;
@@ -150,7 +153,12 @@
     }
     .rodape-imagem{
         margin: 5px;
-        width: 50px; 
+        width: 100px; 
+    }
+    .rodape{
+        text-align: center;
+        justify-content: center;
+        margin: auto;
     }
     .texto2{
         display: none;
