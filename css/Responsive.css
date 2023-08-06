@@ -92,6 +92,7 @@
         justify-content: center;
         margin:auto;
         padding:0;
+        background-image: url(/Img/06.png);
     }
     .cabecalho-imagem{
         display: none;
@@ -99,7 +100,7 @@
     .cabecalho-menu{
         margin: 0;
         padding: 20px;
-        background-image: url(/Img/06.png);
+        
         
     }
     .cabecalho-menu-item{
