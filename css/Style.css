@@ -87,9 +87,9 @@ flex-direction: row;
     font: normal 20pt arial;
 }
 :hover.cabecalho-menu-item{
-    color: #faf6f602;
+    color: #faf6f6;
     padding: 10;
-    transform: scale(1.4);
+    transform: scale(1.3);
 }
 .conteudo-main{
     background-color: rgb(255, 255, 255) ;   
