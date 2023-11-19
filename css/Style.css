@@ -84,7 +84,7 @@ flex-direction: row;
     text-align: center;
     justify-content: center;
     align-items: center;
-    font: normal 20pt arial;
+    font: normal 20pt arial;p
 }
 :hover.cabecalho-menu-item{
     color: #faf6f6;
