@@ -44,11 +44,10 @@
 */
 
 body{
-  text-align: center;
-  padding: 150px;
+  padding: 5%;
 }
 
-  .background {
+.background {
     position:fixed;
     top: 0;
     left: 0;
@@ -56,7 +55,7 @@ body{
     height: 100%;
     z-index: -1;
     animation: moveBackground 20s linear infinite;
-    background: linear-gradient(to right,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #73f073, #001c3bb4,#002147b4,#002147e3,#002147de,#002147c0,#3effdfbe,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
+    background: linear-gradient(to right,rgba(255, 255, 255, 0.795),rgba(255, 255, 255, 0.856),rgba(255, 255, 255, 0.815), #3effdf81, #03f10375,#3effdf88,rgba(255, 255, 255, 0.719),rgba(255, 255, 255, 0.849),white,white);
     background-size: 600% 200%;
   }
   
@@ -64,14 +63,39 @@ body{
     0% { background-position: 0% 0%; }
     100% { background-position: 100% 0%; }
   }
-  .formulario{
-    background-color: rgba(255, 255, 255, 0.514);
+.formulario{
+    background-color: rgba(0, 65, 90, 0.24);
     color: rgb(0, 0, 0);
-    width:25%;   
+    width: 80%; 
+    height: 100%;  
     padding: 50px;
-    display: flex;
     align-items: center;
     justify-content: center;
     margin: auto;
     border-radius:20px;
+    text-align: left;
+    font-size: 20px;
+  }
+input{
+    width: 100%;min-width: 90%;max-width: 200%;
+    text-align: center;
+    margin: 10px;
+    padding: 2px;
+    border-radius: 20px;
+  }
+  button{
+    margin: 0% 60px;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  p{
+    text-align: center;
   }
