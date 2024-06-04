@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=NomeDaFonte');
-
-
 .cabecalho{
 /*
     display:flex;
@@ -84,7 +82,6 @@ flex-direction: row;
 }
 h1{
     font: normal 40pt arial;
-    padding: 10px;
 }
 .texto2{
     display: none;
@@ -117,13 +114,14 @@ h1{
     color: rgb(2, 7, 7);
     border-radius: 20PX;
     background-color: rgba(0, 255, 21, 0.589);
+    transition: 1s; /* Transição de 500ms para deixar suave */
     /*background-image: url(/Img/ti-abre.jpg);
     */
 }
 .imagem-conteudo{
     background-size: 100%;
     background-image: url(/Img/06.png);
-    transition: .5s; /* Transição de 500ms para deixar suave */
+    transition: 1s; /* Transição de 500ms para deixar suave */
     width: 50%; 
     margin-left:80px;
     border-radius: 50px;
@@ -131,7 +129,7 @@ h1{
     
 }
 :hover.imagem-conteudo{
-    background-image: url("http://127.0.0.1:5500/Img/eu.jpg");
+    background-image: url("/Img/eu.jpg");
 }
 .conteudo2{
     display: flex;
