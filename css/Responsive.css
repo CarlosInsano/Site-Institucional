@@ -206,12 +206,14 @@
     h1{
         font: normal 20pt arial;
         margin: 1px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
     h2{
         font-size: 20px;
-        padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 35px;
+    }
+    h4{
+        font-size: 15pt;
     }
     .botao-contato{
         padding: 30px;
@@ -226,10 +228,6 @@
     .conteudo2{
         margin-top: 0px;
         padding: 5px;
-    }
-    .rodape{
-        font-size: 15pt;
-        
     }
     .rodape-imagem{
         margin: auto;
@@ -267,7 +265,6 @@
         font: normal 13pt arial;
         padding: 0px;
         margin-top:75px;
-        margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
         overflow: hidden;
@@ -275,12 +272,15 @@
     h1{
         font: normal 20pt arial;
         margin: 1px;
-        padding-top: 50px;
+        padding-top: 20px;
     }
     h2{
         font-size: 20px;
         padding-top: 10px;
-        padding-bottom: 60px;
+        padding-bottom: 35px;
+    }
+    h4{
+        font-size: 15px;
     }
     .botao-contato{
         padding: 30px;
@@ -296,14 +296,17 @@
         margin-top: 0px;
         padding: 5px;
     }
+    .container{
+        font-size: 15pt;
+
+    }
     .rodape{
         font-size: 15pt;
         
     }
     .rodape-imagem{
         margin: auto;
-        width: 40%;
-        border-radius: 0;
+        width: 48%;
     }
     .texto2{
         display: none;
