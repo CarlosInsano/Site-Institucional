@@ -16,15 +16,13 @@ margin: 17px;
 */
 position: fixed;
 top: 0;
-width: 99.4%;
+width: 100%;
 align-items: center;
 /*
 gap: 45%;
 */
 font-size: 25px;
 background-color: rgba(8, 3, 3, 0.479);
-border-radius: 10px;
-border: solid;
 display: flex;
 flex-direction: row;
 }
@@ -42,7 +40,7 @@ flex-direction: row;
 }
 .cabecalho-menu-item{
     margin-top: 10px;
-    color: rgba(0, 255, 21, 0.801);
+    color: rgb(236, 236, 236);
     padding: 5px;
     text-decoration: none;
     border: 2px solid;
@@ -61,14 +59,13 @@ flex-direction: row;
     padding: 10;
     transform: scale(1.3);
 }
-.conteudo-main{
-    background-color: rgba(0, 0, 0, 0.027) ;   
-    border: 15px solid rgba(0, 255, 21, 0.589);
+.conteudo-main{ 
     padding: 50px;
     margin: 50px;
     border-radius: 10px;
     margin-top: 100px;
     margin-bottom: 0;
+    box-shadow: 0 5px 10px black;
 }
 .conteudo1{
     display:flex;
@@ -113,20 +110,18 @@ h1{
 :hover.botao-contato{
     color: rgb(2, 7, 7);
     border-radius: 20PX;
-    background-color: rgba(0, 255, 21, 0.589);
     transition: 1s; /* Transição de 500ms para deixar suave */
     /*background-image: url(/Img/ti-abre.jpg);
     */
 }
 .imagem-conteudo{
     background-size: 100%;
-    background-image: url(/Img/06.png);
+    background-image: url(/Img/computador.gif);
     transition: 1s; /* Transição de 500ms para deixar suave */
     width: 50%; 
     margin-left:80px;
     border-radius: 50px;
-    border:solid 10px rgba(0, 255, 21, 0.589);
-    
+    box-shadow: 0 2px 7px black;
 }
 :hover.imagem-conteudo{
     background-image: url("/Img/eu.jpg");
@@ -155,17 +150,8 @@ h1{
 .rodape-imagem{
     width: 200px; 
     border-radius: 20%;
-    justify-content: center;
-    align-items: center;
     margin: auto;
-}
-.tabela{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    padding: 10px;
-    margin: auto;
-    flex-direction: column;
+    box-shadow: 0 4px 8px black;
 }
 .Card{
     background-color: rgba(255, 255, 255, 0.322);
@@ -201,4 +187,10 @@ a{
 img{
     width: 100%;
     height: 45%;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.267);
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 1px 4px black;
 }
