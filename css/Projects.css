@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=NomeDaFonte');
 body{
-    background-color: black;
-    color: rgba(255, 255, 255, 0.521);
-    
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, 0.521);
 
 }
 .cabecalho{
 position: fixed;
-width:98.5%;
+width:100%;
 color: #fffffff1;
 align-items: center;
-background-color: rgb(8, 3, 3);
+background-color: rgba(8, 3, 3, 0.329);
 border-radius: 10px;
-border: solid gray;
+box-shadow: 0px 2px 15px 2px black;
 display: flex;
 flex-direction:column;
 justify-content: center;
 align-items: center;
-margin: 0;
-padding: 1px;
+margin: auto;
+
 }
 h1{
     font: normal 35pt arial;
@@ -31,11 +30,11 @@ main{
     padding-top: 150px;  
 }
 .Card{
-    background-color: rgba(240, 248, 255, 0.171);
+    background-color: rgba(240, 248, 255, 0.986);
     margin:50px;
     margin-top: 50px;
     border-radius: 10px;
-    border: solid rgb(102, 102, 102);
+    box-shadow: 0px 0px 20px 0px black;
     overflow: hidden;
     width: 250px;
     height: 300px;
@@ -62,7 +61,7 @@ p{
 a{
     margin-top:0;
     text-align: center;
-    color:rgb(253, 253, 253);
+    color:rgba(0, 0, 0, 0.747);
     text-decoration: none;
 }
 img{
