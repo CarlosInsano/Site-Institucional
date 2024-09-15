@@ -122,9 +122,16 @@ h1{
     margin-left:80px;
     border-radius: 50px;
     box-shadow: 0 2px 7px black;
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+
 }
 :hover.imagem-conteudo{
     background-image: url("/Img/eu.jpg");
+    background-size: cover; /* Faz a imagem cobrir todo o conteúdo */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    transition: 1s; /* Transição de 500ms para deixar suave */
+    
 }
 .conteudo2{
     display: flex;

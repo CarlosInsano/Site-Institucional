@@ -11,6 +11,7 @@ createTable();
 app.get('/',function(req, res){
     res.send("Api Rodando");
 });
+
 app.post('/pessoa',function(req, res){
     insertPessoa(req.body)
     res.json({
