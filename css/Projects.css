@@ -2,7 +2,6 @@
 body{
     background-color: rgb(255, 255, 255);
     color: rgba(0, 0, 0, 0.521);
-
 }
 .cabecalho{
 position: fixed;
@@ -44,6 +43,25 @@ main{
 }
 :hover.Card{
     background-color: rgba(44, 188, 255, 0.397);
+    transform: scale(1.2);
+    border:rgba(0, 0, 0, 0.61);
+    border-style:dotted 100px;
+}
+.CardAusente{
+    background-color: rgba(5, 42, 74, 0.271);
+    margin:50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 0px black;
+    overflow: hidden;
+    width: 250px;
+    height: 300px;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+:hover.CardAusente{
+    background-color: rgba(3, 40, 57, 0.397);
     transform: scale(1.2);
     border:rgba(0, 0, 0, 0.61);
     border-style:dotted 100px;
