@@ -118,8 +118,8 @@ h1{
     background-size: 100%;
     background-image: url(/Img/computador.gif);
     transition: 1s; /* Transição de 500ms para deixar suave */
-    width: 50%; 
-    margin-left:80px;
+    width: 22%; 
+    margin-left:150px;
     border-radius: 50px;
     box-shadow: 0 2px 7px black;
     background-repeat: no-repeat; /* Evita repetição da imagem */
