@@ -8,8 +8,11 @@
         margin: auto;
         
     }
+    .botao-contato{
+        font-size: 15pt;
+    }
     .imagem-conteudo{
-        width: 60%;
+        width: 40%;
     }
     .conteudo2{
         display: flex;
@@ -46,7 +49,7 @@
         flex-direction: row;
     }
     .imagem-conteudo {
-        width: auto;
+        display: none;
       }
     .tabela{
         display: none;
@@ -219,8 +222,8 @@
         font-size: 13pt;
     }
     .botao-contato{
-        padding: 30px;
-        font: normal 15pt arial;
+        padding: 20px;
+        font: normal 13pt arial;
         margin: 0px;
         display: flex;
         justify-content: center;
@@ -276,8 +279,8 @@
     }
     h2{
         font-size: 17pt;
-        padding-top: 10px;
-        padding-bottom: 25px;
+        padding-top: 20px;
+        padding-bottom: 5px;
     }
     h3{
         font-size: 11pt;
@@ -286,9 +289,9 @@
         font-size: 13pt;
     }
     .botao-contato{
-        padding: 30px;
-        font: normal 9pt arial;
-        margin: 0px;
+        padding: 10px;
+        font: normal 10pt arial;
+        margin: auto;
         display: flex;
     }
     .conteudo1{
