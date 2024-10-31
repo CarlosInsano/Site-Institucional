@@ -265,11 +265,8 @@
     }
     .conteudo-main{
         flex-direction: column;
-        font: normal 13pt arial;
-        padding: 0px;
-        margin-top:75px;
-        margin-left: 10px;
-        margin-right: 10px;
+        font: normal 11pt arial;
+        text-align: left;
         overflow: hidden;
     }
     h1{
@@ -290,10 +287,9 @@
     }
     .botao-contato{
         padding: 30px;
-        font: normal 10pt arial;
+        font: normal 9pt arial;
         margin: 0px;
         display: flex;
-        justify-content: center;
     }
     .conteudo1{
         padding:15px;
