@@ -209,11 +209,14 @@
         padding-top: 20px;
     }
     h2{
-        font-size: 20px;
+        font-size: 20pt;
         padding-bottom: 35px;
     }
+    h3{
+        font-size: 13pt;
+    }
     h4{
-        font-size: 15pt;
+        font-size: 13pt;
     }
     .botao-contato{
         padding: 30px;
@@ -275,12 +278,15 @@
         padding-top: 20px;
     }
     h2{
-        font-size: 20px;
+        font-size: 20pt;
         padding-top: 10px;
         padding-bottom: 35px;
     }
+    h3{
+        font-size: 13pt;
+    }
     h4{
-        font-size: 15px;
+        font-size: 13pt;
     }
     .botao-contato{
         padding: 30px;
