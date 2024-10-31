@@ -102,7 +102,7 @@ h1{
     width: 100%;
     margin-top: 70px;
     padding: 10px;
-    font: normal 25pt arial;
+    font: normal 20pt arial;
     background: local;
     border-radius: 40px;
     color:rgba(0, 0, 0, 0.829);
@@ -118,7 +118,7 @@ h1{
     background-size: 100%;
     background-image: url(/Img/computador.gif);
     transition: 1s; /* Transição de 500ms para deixar suave */
-    width: 25%; 
+    width: 30%; 
     margin-left:150px;
     border-radius: 50px;
     box-shadow: 0 2px 7px black;
@@ -200,4 +200,11 @@ img{
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 1px 4px black;
+    font-size: 15pt;
+}
+h2{
+    font-size: 35pt;
+}
+h4{
+    font-size: 20pt;
 }
