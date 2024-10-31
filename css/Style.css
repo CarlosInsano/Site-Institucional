@@ -115,6 +115,9 @@ h1{
     transition: 1s; /* Transição de 500ms para deixar suave */
     /*background-image: url(/Img/ti-abre.jpg);
     */
+    background-color:rgba(0, 0, 0, 0.733);
+    color: white;
+    box-shadow: 0 4px 8px black;
 }
 .imagem-conteudo{
     background-size: 100%;
