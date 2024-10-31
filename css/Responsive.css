@@ -139,12 +139,15 @@
         padding-top: 80px;
     }
     h2{
-        font: normal 15pt arial;
+        font: normal 20pt arial;
         padding-top: 20px;
         padding-bottom: 10px;
         margin: 0px;
         padding-left: 0%;
         padding-right: 0%;
+    }
+    li{
+        font-size: 15pt;
     }
     .botao-contato{
         padding: 30px;
@@ -219,6 +222,9 @@
         font-size: 13pt;
     }
     h4{
+        font-size: 13pt;
+    }
+    li{
         font-size: 13pt;
     }
     .botao-contato{
