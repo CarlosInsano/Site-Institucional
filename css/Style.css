@@ -70,7 +70,7 @@ flex-direction: row;
 .conteudo1{
     display:flex;
     justify-content: center;
-    font: normal 15pt arial;
+    font: normal arial;
     padding: 40px;
     margin:auto;
     margin-bottom: 30px;
@@ -93,11 +93,13 @@ h1{
     border-radius: 25px;
     color: rgba(32, 32, 32, 0.377);
 }
+
 :hover.texto2{
     font: normal 30pt arial;
     color: black;
     transform: scale(1.2);
 }
+
 .botao-contato{
     width: 100%;
     margin-top: 70px;
