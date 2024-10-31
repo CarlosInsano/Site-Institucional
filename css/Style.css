@@ -104,7 +104,7 @@ h1{
     width: 100%;
     margin-top: 70px;
     padding: 10px;
-    font: normal 20pt arial;
+    font: normal 17pt arial;
     background: local;
     border-radius: 40px;
     color:rgba(0, 0, 0, 0.829);
@@ -205,8 +205,11 @@ img{
     font-size: 15pt;
 }
 h2{
-    font-size: 35pt;
+    font-size: 30pt;
 }
 h4{
+    font-size: 20pt;
+}
+h3{
     font-size: 20pt;
 }
