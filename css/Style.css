@@ -95,7 +95,7 @@ h1{
     transition: 1s; /* Transição de 500ms para deixar suave */
     /*background-image: url(/Img/ti-abre.jpg);
     */
-    background-color:rgba(0, 0, 0, 0.733);
+    background-color:rgb(0, 0, 0);
     color: white;
     box-shadow: 0 4px 8px black;
     font: normal 18pt arial;

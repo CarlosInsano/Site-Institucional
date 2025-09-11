@@ -79,7 +79,7 @@
         display: none;
     }
 }
-@media (max-width: 425px){
+@media (max-width: 445px){
     /*.background {
         position:fixed;
         top: 0;
@@ -150,8 +150,9 @@
         font-size: 15pt;
     }
     .botao-contato{
-        padding: 30px;
-        font: normal 15pt arial;
+        padding: 5px;
+        margin: 10px;
+        font: normal 16pt arial;
         display: flex;
         justify-content: center;
     }
@@ -160,6 +161,7 @@
         height: 100%;
     }
     .Card{
+        display: none;
         padding: 50px 0;
         height: auto;
         height: 200%;
@@ -228,9 +230,9 @@
         font-size: 13pt;
     }
     .botao-contato{
-        padding: 20px;
-        font: normal 13pt arial;
-        margin: 0px;
+        padding: 5px;
+        margin: 10px;
+        font: normal 16pt arial;
         display: flex;
         justify-content: center;
     }
@@ -295,10 +297,11 @@
         font-size: 13pt;
     }
     .botao-contato{
-        padding: 10px;
-        font: normal 10pt arial;
-        margin: auto;
+        padding: 5px;
+        margin: 10px;
+        font: normal 16pt arial;
         display: flex;
+        justify-content: center;
     }
     .conteudo1{
         padding:15px;
