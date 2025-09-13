@@ -92,5 +92,36 @@
         <a href="https://www.instagram.com/_sigmati/" target="_blank" class="btn" style="background-color:rgb(0, 0, 0);color: white;box-shadow: 0 4px 8px black;">
             <i class="fab fa-instagram"></i> Entrar em contato via Instagram</a>
     </footer>
+    <script>
+    async function registrarAcesso() {
+    try {
+        // Capturar IP público
+        let ip = await fetch("https://api.ipify.org?format=json")
+        .then(r => r.json())
+        .then(d => d.ip);
+
+        // Dados do visitante
+        let dados = {
+        ip: ip,
+        navegador: navigator.userAgent,
+        pagina: window.location.href,
+        horario: new Date().toISOString()
+        };
+
+        // Enviar para seu webhook no n8n
+        await fetch("https://sigmati.app.n8n.cloud/webhook/ef865bf4-3011-4736-938b-d1cc4b4f80a1", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(dados)
+        });
+    } catch (e) {
+        console.error("Erro ao registrar acesso:", e);
+    }
+    }
+
+    // Executa sempre que a página carregar
+    registrarAcesso();
+    </script>
+
 </body>
 </html>
